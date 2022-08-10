@@ -26,7 +26,6 @@ public class VerifyLoginPage {
 		LoginPage loginPage =new LoginPage();
 	
 		
-		
 		loginPage.clickLoginButton();
 		loginPage.enterEmailIdForCreateAccount("naveen11234@gmail.com");
 		loginPage.clickCreateAnAccountButton();
