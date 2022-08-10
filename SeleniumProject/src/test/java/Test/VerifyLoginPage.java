@@ -24,7 +24,8 @@ public class VerifyLoginPage {
 	public void verifyCreateAnAccountWithValidEmailId() throws InterruptedException {
 	
 		LoginPage loginPage =new LoginPage();
-	
+		
+		System.out.println("naveen");
 		
 		loginPage.clickLoginButton();
 		loginPage.enterEmailIdForCreateAccount("naveen11234@gmail.com");
